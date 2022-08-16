@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Matinesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="desk.css">
+    <link rel="stylesheet" media="screen and (max-width: 1600px) and (min-width: 1100px)" href="ara.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px) and (min-width: 600px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+</head>
+
+<body ondragstart="return false" onselectstart="return false">
+
+
+    <h2 id="islem"></h2>
+
+    <div id="tuslar">
+
+        <div id="ilk-satır" class="satır">
+
+            <div onclick="sayı(7)" class="tus-s tus"><img src="img/7.png" alt="7"></div>
+            <div onclick="sayı(8)" class="tus-s tus"><img src="img/8.png" alt="8"></div>
+            <div onclick="sayı(9)" class="tus-s tus"><img src="img/9.png" alt="9"></div>
+            <div onclick="c()" class="tus-i tus"><img src="img/ac.png" alt="ac"></div>
+            <div onclick="m()" id="mode" class="tus-i tus"><img src="img/mode.png" alt="mode"></div>
+
+        </div>
+
+        <div id="ikinci-satır" class="satır">
+
+            <div onclick="sayı(4)" class="tus-s tus"><img src="img/4.png" alt="4"></div>
+            <div onclick="sayı(5)" class="tus-s tus"><img src="img/5.png" alt="5"></div>
+            <div onclick="sayı(6)" class="tus-s tus"><img src="img/6.png" alt="6"></div>
+            <div onclick="sayı('carpma')" class="tus-i tus"><img src="img/çarpı.png" alt="carpı"></div>
+            <div onclick="sayı('bolme')" class="tus-i tus"><img src="img/bölme.png" alt="bölme"></div>
+
+        </div>
+
+        <div id="ucuncu-satır" class="satır">
+
+            <div onclick="sayı(1)" class="tus-s tus"><img src="img/1.png" alt="1"></div>
+            <div onclick="sayı(2)" class="tus-s tus"><img src="img/2.png" alt="2"></div>
+            <div onclick="sayı(3)" class="tus-s tus"><img src="img/3.png" alt="3"></div>
+            <div onclick="sayı('artı')" class="tus-i tus"><img src="img/artı.png" alt="topla"></div>
+            <div onclick="sayı('eksi')" class="tus-i tus"><img src="img/eksi.png" alt="çıkart"></div>
+
+        </div>
+
+        <div id="dorduncu-satır" class="satır">
+
+            <div onclick="sayı(0)" class="tus-s tus tus-l"><img src="img/0.png" alt="0"></div>
+            <div onclick="sayı('nokta')" class="tus-s tus"><img src="img/,.png" alt=","></div>
+            <div onclick="esittir()" class="tus-i tus-l tus"><img src="img/eşittri.png" alt="="></div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(26, 26, 26);
+    transition: 500ms;
+}
+.tus{
+
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tus-s{
+    background-color: black;
+
+}
+.tus-i{
+    background-color: rgb(227, 124, 7);
+
+}
+.tus-l{
+
+    margin: 0px;
+}
+.satır{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#tuslar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+#islem{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: right;
+    max-width: 100%;
+    min-height: 20px;
+    transition: 500ms;
+    
+}
+
+#sayı{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: right;
+    max-width: 100%;
+    min-height: 20px;
+
+
+
+}

@@ -1,0 +1,29 @@
+.tus{
+    height: 85px;
+    width: 85px;
+    margin: 10px 10px 10px 10px;
+}
+
+.tus-l{
+    height: 85px;
+    width: 190px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 43px;
+}
+
+#islem{
+    font-size: 90px;
+    height: 90px;
+    margin-right: 20px;
+}
+#sayı{
+    font-size: 45px;
+    height: 45px;
+    margin-right: 30px;
+
+}
+
+img{
+    height: 43px;
+    width: 43px;
+}
